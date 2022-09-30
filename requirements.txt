@@ -1,0 +1,4 @@
+Flask-graphql
+Flask
+graphene==2.1.9
+cassandra-driver

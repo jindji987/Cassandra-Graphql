@@ -1,0 +1,18 @@
+version: '3'
+
+services: 
+ flask:
+    build: .
+    ports:
+      - "9043:5000"
+    volumes:
+      - .:/app
+ cas1: 
+    image: cassandra:latest
+    ports:
+      - 9042:9042
+    environment:
+      - CASSANDRA_START_RPC=true
+      - CASSANDRA_CLUSTER_NAME=MyCluster
+      - CASSANDRA_ENDPOINT_SNITCH=GossipingPropertyFileSnitch
+      - CASSANDRA_DC=datacenter1

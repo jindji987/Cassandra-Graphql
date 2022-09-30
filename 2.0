@@ -1,0 +1,11 @@
+Requirement already satisfied: graphene in c:\users\jirij\appdata\local\programs\python\python38\lib\site-packages (3.1)
+Requirement already satisfied: aniso8601<10,>=8 in c:\users\jirij\appdata\local\programs\python\python38\lib\site-packages (from graphene) (9.0.1)
+Requirement already satisfied: graphql-relay<3.3,>=3.1 in c:\users\jirij\appdata\local\programs\python\python38\lib\site-packages (from graphene) (3.2.0)
+Collecting graphql-core<3.3,>=3.1
+  Using cached graphql_core-3.2.1-py3-none-any.whl (202 kB)
+Installing collected packages: graphql-core
+  Attempting uninstall: graphql-core
+    Found existing installation: graphql-core 2.3.2
+    Uninstalling graphql-core-2.3.2:
+      Successfully uninstalled graphql-core-2.3.2
+Successfully installed graphql-core-3.2.1
